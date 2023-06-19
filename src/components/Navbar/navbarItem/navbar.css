@@ -1,0 +1,25 @@
+/* styles.css */
+.link {
+    position: relative;
+    font-family: serif
+  }
+
+  .link:before,
+  .link:after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: currentColor;
+  }
+
+  .link:before {
+    top: -4px;
+    left: -4px;
+  }
+
+  .link:after {
+    bottom: -4px;
+    right: -4px;
+  }
