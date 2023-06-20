@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import {RiShoppingCartLine} from "react-icons/ri"
 const Cart = () => {
   const dispatch = useDispatch();
-  const { carts, totalAmount, itemCount } = useSelector(state => state.carts);
+  const { carts, totalAmount, /* itemCount */ } = useSelector(state => state.carts);
 
   useEffect(() => {
     dispatch(getCartTotal());
