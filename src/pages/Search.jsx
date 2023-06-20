@@ -21,13 +21,13 @@ const Search = ({ setKeyword }) => {
       .then(res => res.json())
       .then(json => setProducts(json));
   }, []);
-
+/*
   const handleSearch = (keyword) => {
     dispatch(getSearchProducts(keyword)).then(() => {
       navigate("/search"); // Arama sonuçları sayfasına yönlendirme
     });
   };
-
+*/
   return (
     <div>
       <Autocomplete
