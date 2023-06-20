@@ -1,7 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import {STATUS}from "../utils/status";
+/*
 import { getProducts } from "./productSlice";
-
+*/
 const initialState = {
  products : [],
  productsStatus : STATUS.IDLE, /* başlangıç değerim /*/
