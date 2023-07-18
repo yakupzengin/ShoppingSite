@@ -30,6 +30,8 @@
     background-color: hsl(203, 92%, 75%);
     font-size: 24px;
     cursor: pointer;
+    margin: 15px 0 20px 0;
+
   }
 
   .slide-content button:hover {
